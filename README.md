@@ -1,4 +1,4 @@
-# cs361 (Group 17) - Small Pool Microservice: Search
+# CS361 (Group 17) - Small Pool Microservice: Search
 
 **What does this microservice do?**
 
@@ -21,10 +21,22 @@ _Example call:_ `POST http://127.0.0.1:8000/search/cat`
 JSON body:
 ```yaml
 [
-  {"name": "Martin", "species": "fish"},
-  {"name": "Carlos", "species": "dog"},
-  {"name": "Fred", "species": "cat"},
-  {"name": "Friend", "species": "fish"}
+  {
+    "name": "Martin",
+    "species": "fish"
+  },
+  {
+    "name": "Carlos",
+    "species": "dog"
+  },
+  {
+    "name": "Fred",
+    "species": "cat"
+  },
+  {
+    "name": "Friend",
+    "species": "fish"
+  }
 ]
 ```
 
